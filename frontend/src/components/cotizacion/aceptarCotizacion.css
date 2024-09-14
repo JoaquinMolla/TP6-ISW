@@ -1,0 +1,57 @@
+.aceptarCotizacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 25px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+}
+
+.elementosForm {
+    margin-top: 15px;
+    padding: 0;
+    text-align: left;
+}
+
+.h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.h6 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.transportista {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+.elementosTransportista {
+    display: flex;
+    flex-direction: row;
+}
+
+.textoForm {
+    font-size: 20px;
+}
+
+.tituloForm {
+    padding-left: 0;
+    text-align: left;
+    font-size: 20px;
+}
+
+.textoTransportista {
+    margin-left: 10px;
+}
