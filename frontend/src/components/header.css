@@ -1,9 +1,9 @@
 .header {
-    background-color: #6bfc3a !important;
+    background-color: #3aaefc !important;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1;
-    padding: 0 20px;
+    padding: 0 20px;;
 }

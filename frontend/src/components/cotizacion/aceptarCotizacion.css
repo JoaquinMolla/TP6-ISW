@@ -9,12 +9,12 @@
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 50px;
-    height: 500px;
+    min-height: 330px;
     width: 500px;
 }
 
 .elementosForm {
-    margin-top: 15px;
+    margin-top: 5px;
     padding: 0;
     text-align: left;
 }
@@ -54,4 +54,8 @@
 
 .textoTransportista {
     margin-left: 10px;
+}
+
+.botones {
+    margin-right: 10px
 }
