@@ -19,7 +19,7 @@ export function PagoContContr() {
 
             <div className="elementosForm">
                 {aceptarPagoEfectivo === true && <p>El pago en efectivo  con contra entrega fue aceptado correctamente.
-                    Pedido Confirmado.</p>}
+                    Pedido Confirmado. El transportista fue notificado con éxito</p>}
             </div>
         </>
     )

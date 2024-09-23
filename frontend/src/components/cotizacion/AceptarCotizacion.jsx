@@ -21,7 +21,7 @@ export function AceptarCotizacion() {
     const [mostrarPagoTarjeta, setMostrarPagoTarjeta] = React.useState(false);
     const [mostrarPagoEfectivo, setMostrarPagoEfectivo] = React.useState(false);
     const [mostrarPagoContContraEntrega, setMostrarPagoContContraEntrega] = React.useState(false);
-
+    
     const mostrarPago = () => {
         setMostrarPagoTarjeta(true);
         setMostrarPagoEfectivo(false);

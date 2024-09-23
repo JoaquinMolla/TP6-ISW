@@ -160,9 +160,9 @@ export function PagoTarjeta() {
           </form>
 
           <div className="elementosForm">
-              {pagoExitoso === true && <p>El pago fue aceptado correctamente. El numero de pago es: {numeroPago}.
-                  Pedido Confirmado.</p>}
-              {pagoExitoso === false && <p>El pago fue rechazado. Por favor, verifique los datos de la tarjeta.</p>}
+            {pagoExitoso === true && <p>El pago fue aceptado correctamente. El numero de pago es: {numeroPago}.
+                Pedido Confirmado. El transportista fue notificado con éxito</p>}
+            {pagoExitoso === false && <p>El pago fue rechazado. Por favor, verifique los datos de la tarjeta.</p>}
           </div>
       </>
     );
